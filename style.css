@@ -1,0 +1,194 @@
+/* Estilo General */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Testimonios */
+blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-left: 5px solid #5b9aa0;
+    background-color: #f3f4f7;
+    max-width: 600px;
+}
+/* Formulario de Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f3f4f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to right, #4a8b94, #76c7c0);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Menú de Navegación */
+header nav {
+    margin-top: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu > li:hover {
+    background-color: #555;
+}
+
+.dropdown-menu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #777;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Secciones */
+section {
+    margin: 40px auto;
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #4a8b94;
+    margin-bottom: 15px;
+}
+
+/* Servicios */
+.therapy-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.therapy-service img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.therapy-service h4 {
+    margin: 15px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.therapy-service p {
+    text-align: center;
+    color: #777;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4a8b94;
+    color: white;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+/* Sección con Imagen a la Izquierda y Texto a la Derecha */
+.image-text-section {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-section img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-section .text {
+    flex: 1;
+    color: #333;
+}
+
+.image-text-section h4 {
+    margin-top: 0;
+    color: #4a8b94;
+    font-size: 1.5em;
+}
+
+.image-text-section p {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #777;
+
+}
